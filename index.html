@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="main.js"></script>
+        <title>Ricky's Homepage</title>
+    </head>
+    <body>
+        <div id="pageContainer">
+            <div id="tree" class="contentContainer noWrap">
+                <!-- first folder -->
+
+                <a class="folder" href="#folder1" data-bs-toggle="collapse" role="button">> about_me</a><br>
+                <div class="collapse tab" id="folder1">
+                    <div><a class="link" href="trumpet.html">trumpet.txt</a></div>
+                    <div><a class="link" href="blender.html">blender.txt</a></div>
+                </div>
+                <!-- second folder -->
+
+                <a class="folder" href="#folder2" data-bs-toggle="collapse" role="button">> games</a><br>
+                <div class="collapse tab" id="folder2">
+                    <div><a class="link" href="flappy.html">flappy.exe</a></div>
+                    <div><a class="link" href="skyrim.html">skyrim.exe</a></div>
+                </div>
+
+            </div>
+            <div class="verticalSpacer"></div>
+            <div style="width:2px"></div>
+            <div class="verticalSpacer"></div>
+            <div id="content" class="contentContainer">
+                <h1>Ricky's Homepage</h1>
+                <p class="tab">
+                    My name is Ricky Owings and this is my homepage that I have made for <a href="https://cs50.harvard.edu/x">CS50X.</a> The style is based on a terminal text editor called <a href="https://www.vim.org/">VIM</a> with a plugin installed called <a href="https://github.com/preservim/nerdtree">Nerd-Tree.</a>
+                </p>
+                <h2>Intro</h2>
+                <p class="tab">
+                    I am an aspiring programmer (at the time of writing this!) who is taking CS50X to hopefully get into programming and the lot. Prior to taking this course, I already knew how to program quite a lot in Javascript, so the transition to the C programming language was quite easy for me (since they are syntactically very similar). Eventually, the course did get quite a lot harder when it started to introduce algorithms that would (even if you understood the programming language) be quite challenging to understand. It was really fun, and I am on currently on week 8.
+                </p>
+                <h2>Why Programming?</h2>
+                <p class="tab">
+                    Throughout the years, I have noticed that I have a knack for solving problems. My favorite classes in school where always math and science. The aspect of math and science that I particularly enjoyed was learning new mathematical processes and connecting those different ideas into my general understanding of the math world. In a sense, programming is very similar, since it is in fact based on math. The further down you get into programming, the more patterns that you begin to see syntactically and logically which aligns with my infatuation with math and science.
+                </p>
+                <h2>Site Layout</h2>
+                <p class="tab">
+                    The left window contains a links to different parts of the site. They are organized into folders which you can expand out to see the contents. The right window contains the contents of the website
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

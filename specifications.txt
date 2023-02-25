@@ -1,0 +1,68 @@
+DONE: Contain at least four different .html pages, one of which is index.html
+    - be able to get to any other page from eachother
+
+DONE: use at least 10 distinct HTML tags besides <html>, <head>, <body>, and <title>
+    - I am not entirely sure if by head, they mean elements in the head
+    so I will split it up into head and body count
+
+
+    /////////////////////////////////////////////////////////////////
+
+    - index.html
+        - head: <link> <script>
+        - body: <div> <a> <h1> <p> <h2>
+    - blender.html
+        - head: <link> <script>
+        - body: <div> <a> <br> <h1> <h2> <p> <table> <tr> <td> <img>
+    - trumpet.html
+        - head: <link> <script>
+        - body: <div> <a> <h1> <p> <h2>
+    - flappy.html
+        - head: <link> <script>
+        - body: <div> <a> <canvas>
+    - skyrim.html
+        - head: <link> <script>
+        - body: <div> <a> <img> <table> <tr> <td> <img>
+
+    /////////////////////////////////////////////////////////////////
+
+    - uniques:
+        - head: <link> <script>
+        - body: <div> <a> <h1> <p> <h2> <br> <table> <tr> <d> <img> <canvas>
+
+    - totals:
+        - head: 2
+        - body: 11
+
+    - so we are good on the elements front (even if it did not include the head for some reason)
+
+DONE: Bootstrap features
+    - at least 1 or more
+
+    - used the file tree explorer stylization
+
+DONE: One custom stylesheet
+    - uses at least 5 different css selectors
+    - uses at least 5 different properties
+
+    - SELECTORS:
+        :root, body, html, a, a:hover, a:visited, a.folder, a.link, h1, h2, .contentContainer, .tab, .noWrap,
+        .verticalSpacer, .speechBubble, .lip, .skyrimImg, #pageContainer, #tree, #content,
+        #content::-webkit-scrollbar
+
+        - I think this is larger than 5
+
+    - PROPERTIES...
+        - I don't feel like listing all of them but there is definetely more than 5
+
+
+DONE: use javascript
+    - lots of javascript
+
+EYES OF THE BEHOLDER: looks good on mobile and desktop
+    - I think it looks good, but other people might not like it which is the best that I can reasonably do.
+    If anything, the skyrim one is a gaff, so if they think that does not look good, then don't count that one.
+
+    - The only real issue is that in the blender html, when loading the images, the table can get a little
+    quirky, but then it evens out. Overall, I think it looks great. One of my better sites
+

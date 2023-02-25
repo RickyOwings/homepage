@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="main.js"></script>
+        <title>Ricky's Homepage</title>
+    </head>
+    <body>
+        <div id="pageContainer">
+            <!-- SEARCH TREE -->
+            <div id="tree" class="contentContainer noWrap">
+                <!-- first folder -->
+
+                <a class="folder" href="index.html">.. (up a dir)</a><br>
+            </div>
+
+            <!-- vertical spacer stylization-->
+            <div class="verticalSpacer"></div>
+            <div id="buffer" style="width:2px"></div>
+
+            <div class="verticalSpacer"></div>
+            <div id="content" class="contentContainer" style="width:100%; height:100%; display:flex; align-items:end">
+
+                <!--
+                    The stylization of these elements proved to be specific enough to merit the use
+                    of having style in the html. It would have just bloated the stylesheet in my opinion
+                -->
+
+                <img src="images/skyrim/cairrage.png" style="
+                    position:absolute;
+                    width:-webkit-fill-available;
+                    height:fit-content;
+                    bottom: 0;
+                    "></img>
+                <table style="
+                    position:absolute;
+                    width:-webkit-fill-available;
+                    height:fit-content;
+                    bottom:0;
+                    ">
+                    <tr>
+                        <td>
+                            <div width="5em">
+                                <div class="speechBubble"><p id="offscreen"></p></div>
+                                <div class="lip"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div width="5em">
+                                <div class="speechBubble"><p id="ralof"></p></div>
+                                <div class="lip"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div width="5em">
+                                <div class="speechBubble"><p id="lokir"></p></div>
+                                <div class="lip"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div width="5em">
+                                <div class="speechBubble"><p id="ulfric"></p></div>
+                                <div class="lip"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img class="skyrimImg" src="images/skyrim/ralof.png"></img></td>
+                        <td><img class="skyrimImg" src="images/skyrim/lokir.png"></img></td>
+                        <td><img class="skyrimImg" src="images/skyrim/jarl ulfric.png"></img></td>
+                    </tr>
+                </table>
+           </div>
+        </div>
+    <script src="skyrim.js"></script>
+    </body>
+</html>
