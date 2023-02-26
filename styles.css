@@ -68,7 +68,7 @@ h2 {
 
 .verticalSpacer {
     width: 4px;
-    height: 100vh;
+    height: 100dvh;
     background-color: #ddd;
 }
 
@@ -96,7 +96,7 @@ h2 {
 #pageContainer {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     align-items:top;
     border-style: solid;
